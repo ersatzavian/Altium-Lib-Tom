@@ -1,0 +1,35 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Altium-Lib-Tom\resistors.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel 2007
+LibraryDatabasePath=C:\Altium-Lib-Tom\resistors.xlsx
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Sheet1$
+[Table1]
+SchemaName=
+TableName=Sheet1$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=131|Description0=153|Value0=98|Tolerance0=139|Power Rating0=172|Package0=151|Pulse-Rated0=159|Symbol Ref0=155|Footprint Ref0=171|Manufacturer 10=192|Manufacturer 1 PN0=226|Supplier 10=142|Supplier 1 PN0=176|Manufacturer 20=192|Manufacturer 2 PN0=226|Supplier 20=142|Supplier 2 PN0=176
+[FieldMap1]
+Options=FieldName=Sheet1$.Description|TableNameOnly=Sheet1$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Sheet1$.Footprint Ref|TableNameOnly=Sheet1$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
