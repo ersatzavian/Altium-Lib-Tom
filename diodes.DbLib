@@ -1,0 +1,37 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Altium-Lib-Tom\diodes.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel 2007
+LibraryDatabasePath=C:\Altium-Lib-Tom\diodes.xlsx
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=general$
+[Table1]
+SchemaName=
+TableName=general$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=133|Description0=366|Footprint Ref0=171|Voltage - DC Reverse (Vr) (Max)0=355|Current - Average Rectified (Io)0=348|Voltage - Forward (Vf) (Max) @ If0=368|Speed0=396|Reverse Recovery Time (Trr)0=319|Current - Reverse Leakage @ Vr0=356|Capacitance @ Vr, F0=237|Mounting Type0=192|Package / Case0=253|Supplier Device Packaging0=299|Operating Temperature - Junction0=374|Symbol Ref0=155|Manufacturer 10=192|Manufacturer 1 PN0=238|Supplier 10=142|Supplier 1 PN0=176|Supplier 1 Link0=977|Manufacturer 20=192|Manufacturer 2 PN0=226|Supplier 20=142|Supplier 2 PN0=176
+[FieldMap1]
+Options=FieldName=general$.TPN|TableNameOnly=general$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=general$.Description|TableNameOnly=general$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=general$.Footprint Ref|TableNameOnly=general$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
