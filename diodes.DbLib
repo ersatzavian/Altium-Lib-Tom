@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Altium-Lib-Tom\diodes.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=C:\Users\byrne\Altium-Lib-Tom\diodes.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,16 +11,22 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Excel 2007
-LibraryDatabasePath=C:\Altium-Lib-Tom\diodes.xlsx
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=C:\Users\byrne\Altium-Lib-Tom\diodes.xls
 DatabasePathRelative=0
 TopPanelCollapsed=0
-LibrarySearchPath=
+LibrarySearchPath=Sch;Pcb
 OrcadMultiValueDelimiter=,
-SearchSubDirectories=0
+SearchSubDirectories=1
 SchemaName=
 LastFocusedTable=general$
 [Table1]
+SchemaName=
+TableName=LED$
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table2]
 SchemaName=
 TableName=general$
 Enabled=True
@@ -28,10 +34,26 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=TPN0=133|Description0=366|Footprint Ref0=171|Voltage - DC Reverse (Vr) (Max)0=355|Current - Average Rectified (Io)0=348|Voltage - Forward (Vf) (Max) @ If0=368|Speed0=396|Reverse Recovery Time (Trr)0=319|Current - Reverse Leakage @ Vr0=356|Capacitance @ Vr, F0=237|Mounting Type0=192|Package / Case0=253|Supplier Device Packaging0=299|Operating Temperature - Junction0=374|Symbol Ref0=155|Manufacturer 10=192|Manufacturer 1 PN0=238|Supplier 10=142|Supplier 1 PN0=176|Supplier 1 Link0=977|Manufacturer 20=192|Manufacturer 2 PN0=226|Supplier 20=142|Supplier 2 PN0=176
+BrowserOrder_Visible=TPN0=82|Description0=189|Footprint Ref0=92|Library Ref0=77|Voltage - DC Reverse (Vr) (Max)0=180|Current - Average Rectified (Io)0=180|Voltage - Forward (Vf) (Max) @ If0=190|Speed0=205|Reverse Recovery Time (Trr)0=158|Current - Reverse Leakage @ Vr0=184|Capacitance @ Vr, F0=125|Mounting Type0=101|Package / Case0=131|Supplier Device Packaging0=158|Operating Temperature - Junction0=197|Manufacturer 10=102|Manufacturer 1 PN0=126|Supplier 10=75|Supplier 1 PN0=92|Supplier 1 Link0=506|Manufacturer 20=102|Manufacturer 2 PN0=119|Supplier 20=75|Supplier 2 PN0=92
 [FieldMap1]
-Options=FieldName=general$.TPN|TableNameOnly=general$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LED$.TPN|TableNameOnly=LED$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=general$.Description|TableNameOnly=general$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=LED$.Description|TableNameOnly=LED$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
+Options=FieldName=LED$.Library Ref|TableNameOnly=LED$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=LED$.Footprint Ref|TableNameOnly=LED$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=LED$.Manufacturer 1|TableNameOnly=LED$|FieldNameOnly=Manufacturer 1|FieldType=1|ParameterName=Manufacturer 1|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=LED$.Manufacturer 1 PN|TableNameOnly=LED$|FieldNameOnly=Manufacturer 1 PN|FieldType=1|ParameterName=Manufacturer 1 PN|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=general$.TPN|TableNameOnly=general$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=general$.Description|TableNameOnly=general$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
 Options=FieldName=general$.Footprint Ref|TableNameOnly=general$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=general$.Library Ref|TableNameOnly=general$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=general$.Manufacturer 1 PN|TableNameOnly=general$|FieldNameOnly=Manufacturer 1 PN|FieldType=1|ParameterName=Manufacturer 1 PN|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0

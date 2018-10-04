@@ -1,43 +1,59 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Altium-Lib-Tom\resistors.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=C:\Users\byrne\Altium-Lib-Tom\electromechanical.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Excel 2007
-LibraryDatabasePath=C:\Altium-Lib-Tom\resistors.xlsx
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=C:\Users\byrne\Altium-Lib-Tom\electromechanical.xls
 DatabasePathRelative=0
 TopPanelCollapsed=0
-LibrarySearchPath=
+LibrarySearchPath=Pcb;Sch
 OrcadMultiValueDelimiter=,
-SearchSubDirectories=0
+SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=Sheet1$
+LastFocusedTable=switches$
 [Table1]
 SchemaName=
-TableName=Sheet1$
+TableName=potentiometers$
 Enabled=True
 UserWhere=0
-UserWhereText=[TPN] = '{TPN}'
-BrowserOrder_Sorting=Package0=Up
+UserWhereText=
+[Table2]
+SchemaName=
+TableName=switches$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=TPN0=131|Description0=153|Value0=98|Tolerance0=139|Power Rating0=172|Package0=151|Pulse-Rated0=159|Symbol Ref0=155|Footprint Ref0=171|Manufacturer 10=192|Manufacturer 1 PN0=226|Supplier 10=142|Supplier 1 PN0=176|Manufacturer 20=192|Manufacturer 2 PN0=226|Supplier 20=142|Supplier 2 PN0=176|Library Ref0=148
+BrowserOrder_Visible=TPN0=53|Description0=300|Library Ref0=139|Footprint Ref0=92|Manufactuer 1 PN0=228|Series0=53|Circuit0=56|Switch Function0=106|Current Rating0=99|Voltage Rating - DC0=125|Actuator Type0=93|Color - Actuator/Cap0=129|Illumination Type, Color0=145|Illumination Voltage (Nominal)0=180|Mounting Type0=103|Termination Style0=111|Ingress Protection 0=119|Features0=126|Panel Cutout Dimensions0=153|Operating Temperature0=143|Mechanical Life0=102|Electrical Life0=89|Manufacturer 1 0=105|Supplier 10=75|Supplier 1 PN0=92|Supplier 1 Link0=506|Manufacturer 20=118|Manufacturer 2 PN0=119|Supplier 20=118|Supplier 2 PN0=105|Supplier 2 Link0=522
 [FieldMap1]
-Options=FieldName=Sheet1$.TPN|TableNameOnly=Sheet1$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=potentiometers$.TPN|TableNameOnly=potentiometers$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Sheet1$.Description|TableNameOnly=Sheet1$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=potentiometers$.Description|TableNameOnly=potentiometers$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Sheet1$.Value|TableNameOnly=Sheet1$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=potentiometers$.Value|TableNameOnly=potentiometers$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Sheet1$.Tolerance|TableNameOnly=Sheet1$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=potentiometers$.Taper|TableNameOnly=potentiometers$|FieldNameOnly=Taper|FieldType=1|ParameterName=Taper|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Sheet1$.Package|TableNameOnly=Sheet1$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=potentiometers$.Library Ref|TableNameOnly=potentiometers$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=Sheet1$.Library Ref|TableNameOnly=Sheet1$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=potentiometers$.Footprint Ref|TableNameOnly=potentiometers$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=switches$.TPN|TableNameOnly=switches$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=switches$.Description|TableNameOnly=switches$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=switches$.Library Ref|TableNameOnly=switches$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=switches$.Footprint Ref|TableNameOnly=switches$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=switches$.Manufactuer 1 PN|TableNameOnly=switches$|FieldNameOnly=Manufactuer 1 PN|FieldType=1|ParameterName=Manufactuer 1 PN|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0

@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Altium-Lib-Tom\resistors.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=C:\Users\byrne\Altium-Lib-Tom\capacitors.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,33 +11,50 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Excel 2007
-LibraryDatabasePath=C:\Altium-Lib-Tom\resistors.xlsx
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=C:\Users\byrne\Altium-Lib-Tom\capacitors.xls
 DatabasePathRelative=0
 TopPanelCollapsed=0
-LibrarySearchPath=
+LibrarySearchPath=Sch;Pcb
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Sheet1$
+LastFocusedTable=Surface Mount$
 [Table1]
 SchemaName=
-TableName=Sheet1$
+TableName=Surface Mount$
 Enabled=True
 UserWhere=0
-UserWhereText=[TPN] = '{TPN}'
-BrowserOrder_Sorting=Package0=Up
-BrowserOrder_Grouping=
-BrowserOrder_Visible=TPN0=131|Description0=153|Value0=98|Tolerance0=139|Power Rating0=172|Package0=151|Pulse-Rated0=159|Symbol Ref0=155|Footprint Ref0=171|Manufacturer 10=192|Manufacturer 1 PN0=226|Supplier 10=142|Supplier 1 PN0=176|Manufacturer 20=192|Manufacturer 2 PN0=226|Supplier 20=142|Supplier 2 PN0=176|Library Ref0=148
+UserWhereText=
+[Table2]
+SchemaName=
+TableName=Through-Hole$
+Enabled=True
+UserWhere=0
+UserWhereText=
 [FieldMap1]
-Options=FieldName=Sheet1$.TPN|TableNameOnly=Sheet1$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Surface Mount$.TPN|TableNameOnly=Surface Mount$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=Sheet1$.Description|TableNameOnly=Sheet1$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Surface Mount$.Description|TableNameOnly=Surface Mount$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=Sheet1$.Value|TableNameOnly=Sheet1$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Surface Mount$.Library Ref|TableNameOnly=Surface Mount$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Sheet1$.Tolerance|TableNameOnly=Sheet1$|FieldNameOnly=Tolerance|FieldType=1|ParameterName=Tolerance|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Surface Mount$.Footprint Ref|TableNameOnly=Surface Mount$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Sheet1$.Package|TableNameOnly=Sheet1$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Surface Mount$.Value|TableNameOnly=Surface Mount$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=Sheet1$.Library Ref|TableNameOnly=Sheet1$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Surface Mount$.Power Rating|TableNameOnly=Surface Mount$|FieldNameOnly=Power Rating|FieldType=1|ParameterName=Power Rating|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Surface Mount$.Package|TableNameOnly=Surface Mount$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Through-Hole$.TPN|TableNameOnly=Through-Hole$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Through-Hole$.Description|TableNameOnly=Through-Hole$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Through-Hole$.Library Ref|TableNameOnly=Through-Hole$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Through-Hole$.Footprint Ref|TableNameOnly=Through-Hole$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Through-Hole$.Value|TableNameOnly=Through-Hole$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Through-Hole$.Voltage-Rated|TableNameOnly=Through-Hole$|FieldNameOnly=Voltage-Rated|FieldType=1|ParameterName=Voltage-Rated|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
