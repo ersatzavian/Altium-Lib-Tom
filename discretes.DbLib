@@ -1,0 +1,39 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Altium\Libraries\Altium-Lib-Tom\discretes.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=C:\Altium\Libraries\Altium-Lib-Tom\discretes.xls
+DatabasePathRelative=0
+TopPanelCollapsed=0
+LibrarySearchPath=Sch;Pcb
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=1
+SchemaName=
+LastFocusedTable=general$
+[Table1]
+SchemaName=
+TableName=general$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=83|Description0=172|Footprint Ref0=193|Library Ref0=164|Voltage - DC Reverse (Vr) (Max)0=421|Current - Average Rectified (Io)0=415|Voltage - Forward (Vf) (Max) @ If0=437|Speed0=108|Reverse Recovery Time (Trr)0=377|Current - Reverse Leakage @ Vr0=427|Capacitance @ Vr, F0=277|Mounting Type0=220|Package / Case0=218|Supplier Device Packaging0=358|Operating Temperature - Junction0=452|Manufacturer 10=221|Manufacturer Part Number 10=388|Supplier 10=156|Supplier Part Number 10=323|Supplier 1 Link0=214|Manufacturer 20=221|Manufacturer Part Number 20=388|Supplier 20=156|Supplier Part Number 20=323|Part Number0=190|Note0=92|Type0=91|Manufacturer0=198|Manufacturer Part Number0=365|Supplier 1 Part Number0=323|Current - Max Continuous0=352|Voltage - Collector Emitter Breakdown (Max)0=579|Vce Saturation (Max) @ Ib, Ic0=386|Current - Collector Cutoff (Max)0=421|DC Current Gain (hFE) (Min) @ Ic, Vce0=495|Power - Max0=187|Drain to Source Voltage (Vdss)0=407|Gate Charge (Qg) (Max) @ Vgs0=409|Input Capacitance (Ciss) (Max) @ Vds0=487|Vgs (Max)0=152|Rds On (Max) @ Id, Vgs0=322|Vgs(th) (Max) @ Id0=259|Gate Charge (Qg) @ Vgs0=333|Drive Voltage (Max Rds On, Min Rds On)0=532|Operating Temperature0=322|Ratings0=122|ComponentLink1URL0=290|ComponentLink1Description0=382|ComponentLink2URL0=290|ComponentLink2Description0=382
+[FieldMap1]
+Options=FieldName=general$.TPN|TableNameOnly=general$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=general$.Description|TableNameOnly=general$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=general$.Footprint Ref|TableNameOnly=general$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=general$.Library Ref|TableNameOnly=general$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

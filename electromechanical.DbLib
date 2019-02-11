@@ -1,25 +1,25 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=C:\Users\byrne\Altium-Lib-Tom\electromechanical.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Altium\Libraries\Altium-Lib-Tom\electromechanical.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=C:\Users\byrne\Altium-Lib-Tom\electromechanical.xls
+LibraryDatabasePath=C:\Altium\Libraries\Altium-Lib-Tom\electromechanical.xls
 DatabasePathRelative=0
 TopPanelCollapsed=0
 LibrarySearchPath=Pcb;Sch
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=switches$
+LastFocusedTable=potentiometers$
 [Table1]
 SchemaName=
 TableName=potentiometers$
@@ -32,9 +32,6 @@ TableName=switches$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=TPN0=53|Description0=300|Library Ref0=139|Footprint Ref0=92|Manufactuer 1 PN0=228|Series0=53|Circuit0=56|Switch Function0=106|Current Rating0=99|Voltage Rating - DC0=125|Actuator Type0=93|Color - Actuator/Cap0=129|Illumination Type, Color0=145|Illumination Voltage (Nominal)0=180|Mounting Type0=103|Termination Style0=111|Ingress Protection 0=119|Features0=126|Panel Cutout Dimensions0=153|Operating Temperature0=143|Mechanical Life0=102|Electrical Life0=89|Manufacturer 1 0=105|Supplier 10=75|Supplier 1 PN0=92|Supplier 1 Link0=506|Manufacturer 20=118|Manufacturer 2 PN0=119|Supplier 20=118|Supplier 2 PN0=105|Supplier 2 Link0=522
 [FieldMap1]
 Options=FieldName=potentiometers$.TPN|TableNameOnly=potentiometers$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -55,5 +52,3 @@ Options=FieldName=switches$.Description|TableNameOnly=switches$|FieldNameOnly=De
 Options=FieldName=switches$.Library Ref|TableNameOnly=switches$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap10]
 Options=FieldName=switches$.Footprint Ref|TableNameOnly=switches$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap11]
-Options=FieldName=switches$.Manufactuer 1 PN|TableNameOnly=switches$|FieldNameOnly=Manufactuer 1 PN|FieldType=1|ParameterName=Manufactuer 1 PN|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0

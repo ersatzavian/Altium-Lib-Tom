@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.JET.OLEDB.4.0;Data Source=C:\Users\byrne\Altium-Lib-Tom\capacitors.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Altium\Libraries\Altium-Lib-Tom\capacitors.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -12,7 +12,7 @@ QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=C:\Users\byrne\Altium-Lib-Tom\capacitors.xls
+LibraryDatabasePath=C:\Altium\Libraries\Altium-Lib-Tom\capacitors.xls
 DatabasePathRelative=0
 TopPanelCollapsed=0
 LibrarySearchPath=Sch;Pcb
@@ -41,20 +41,8 @@ Options=FieldName=Surface Mount$.Library Ref|TableNameOnly=Surface Mount$|FieldN
 [FieldMap4]
 Options=FieldName=Surface Mount$.Footprint Ref|TableNameOnly=Surface Mount$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Surface Mount$.Value|TableNameOnly=Surface Mount$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap6]
-Options=FieldName=Surface Mount$.Power Rating|TableNameOnly=Surface Mount$|FieldNameOnly=Power Rating|FieldType=1|ParameterName=Power Rating|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap7]
-Options=FieldName=Surface Mount$.Package|TableNameOnly=Surface Mount$|FieldNameOnly=Package|FieldType=1|ParameterName=Package|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap8]
-Options=FieldName=Through-Hole$.TPN|TableNameOnly=Through-Hole$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap9]
 Options=FieldName=Through-Hole$.Description|TableNameOnly=Through-Hole$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap10]
+[FieldMap6]
 Options=FieldName=Through-Hole$.Library Ref|TableNameOnly=Through-Hole$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap11]
+[FieldMap7]
 Options=FieldName=Through-Hole$.Footprint Ref|TableNameOnly=Through-Hole$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap12]
-Options=FieldName=Through-Hole$.Value|TableNameOnly=Through-Hole$|FieldNameOnly=Value|FieldType=1|ParameterName=Value|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap13]
-Options=FieldName=Through-Hole$.Voltage-Rated|TableNameOnly=Through-Hole$|FieldNameOnly=Voltage-Rated|FieldType=1|ParameterName=Voltage-Rated|VisibleOnAdd=True|AddMode=0|RemoveMode=0|UpdateMode=0
