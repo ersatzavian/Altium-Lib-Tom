@@ -19,18 +19,35 @@ LibrarySearchPath=Sch;Pcb
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=general$
+LastFocusedTable=SSR$
 [Table1]
 SchemaName=
-TableName=general$
+TableName=NMOS$
 Enabled=True
 UserWhere=0
 UserWhereText=
+[Table2]
+SchemaName=
+TableName=SSR$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=55|Library Ref0=77|Footprint Ref0=172|Description0=156|Manufacturer0=195|Manufacturer Part Number0=160|Supplier 10=75|Supplier 1 Part Number0=142|Current - Max Continuous0=157|Voltage-Input0=95|Voltage - Load0=98|On-State Resistance (Max)0=156|Package / Case0=133|ComponentLink1URL0=453|ComponentLink1Description0=170|ComponentLink2URL0=557|ComponentLink2Description0=170
 [FieldMap1]
-Options=FieldName=general$.TPN|TableNameOnly=general$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=NMOS$.TPN|TableNameOnly=NMOS$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=general$.Description|TableNameOnly=general$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=NMOS$.Library Ref|TableNameOnly=NMOS$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=general$.Footprint Ref|TableNameOnly=general$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=NMOS$.Footprint Ref|TableNameOnly=NMOS$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=general$.Library Ref|TableNameOnly=general$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=NMOS$.Description|TableNameOnly=NMOS$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=SSR$.TPN|TableNameOnly=SSR$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=SSR$.Library Ref|TableNameOnly=SSR$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=SSR$.Footprint Ref|TableNameOnly=SSR$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=SSR$.Description|TableNameOnly=SSR$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
