@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\TomByrne
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,25 +19,43 @@ LibrarySearchPath=Sch;Pcb
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=audio$
+LastFocusedTable=battery$
 [Table1]
 SchemaName=
 TableName=DC power$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=79|Description0=188|Library Ref0=83|Footprint Ref0=111|Connector Type0=104|Gender0=61|Industry Recognized Mating Diamter0=211|Actual Diameter0=206|Number of Positions/Contacts0=177|Internal Switch(s)0=166|Mounting Type0=102|Mounting Feature0=141|Termination0=85|Shielding0=72|Features0=181|Insulation Color0=106|Voltage - Rated0=103|Current Rating0=99|Mating Length / Depth0=141|Ingress Protection0=116|Contact Material - Plating0=154|Body Material0=93|Operating Temperature0=144|Includes0=141|Housing Material0=133|Contact Material0=108|Thread Size0=82|Body Color0=79|Material Flammability Rating0=169|Manufacturer 10=102|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=142|Supplier Link 10=419|Manufacturer 20=102|Manufacturer Part Number 20=169|Supplier 20=75|Supplier Part Number 20=142
 [Table2]
 SchemaName=
 TableName=audio$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=78|Description0=203|Library Ref0=77|Footprint Ref0=105|Series0=60|Connector Type0=104|Gender0=61|Singal Lines0=139|Industry Recognized Mating Diameter0=217|Actual Diameter0=104|Number of Positions/Contacts0=177|Internal Switch(s)0=137|Mounting Type0=152|Termination0=85|Shielding0=72|Features0=181|Insulation Color0=106|Voltage - Rated0=103|Current Rating0=99|mating Length/Depth0=134|Contact Material - Plating0=154|Body Material0=93|Body Color0=79|Includes0=195|Housing Material0=112|Contact Material0=108|Cable Opening0=101|Panel Hole Size0=101|Thread Size0=82|Operating Temperature0=144|Manufacturer 10=102|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=142|Supplier Link 10=452|Manufacturer 20=118|Manufacturer Part Number 20=169|Supplier 20=429|Supplier Part Number 20=142|Supplier Link 20=99
 [Table3]
 SchemaName=
 TableName=battery$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=61|Description0=199|Library Ref0=77|Footprint Ref0=92|Battery Type Function0=134|Style0=94|Battery Cell Size0=103|Number of Cells 0=108|Battery Series0=91|Mounting Type0=102|Termination Style0=138|Height Above Board0=126|Operating Temperature0=144|Manufacturer 10=112|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=142|Supplier 1 Link0=461|Manufacturer 20=102|Manufacturer Part Number 20=169|Supplier 20=75|Supplier Part Number 20=142
+[Table4]
+SchemaName=
+TableName=general$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=77|Description0=202|Series0=107|Connector Type0=197|Gender0=61|Number of Positions/Contacts0=177|Mounting Type0=102|Features0=67|Insulation Color0=106|Voltage - Rated0=103|Current Rating0=99|Mating Length/Depth0=135|Contact Material - Plating0=154|Body Material0=93|Body Color0=79|Housing Material0=176|Contact Material0=108|Operating Temperature0=144|Library Ref0=77|Footprint Ref0=125|Manufacturer 10=102|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=142|Supplier Link 10=487|Manufacturer 20=102|Manufacturer Part Number 20=169|Supplier 20=75|Supplier Part Number 20=142|Supplier Link 20=99
 [FieldMap1]
 Options=FieldName=DC power$.TPN|TableNameOnly=DC power$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -62,3 +80,11 @@ Options=FieldName=battery$.Description|TableNameOnly=battery$|FieldNameOnly=Desc
 Options=FieldName=battery$.Library Ref|TableNameOnly=battery$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap12]
 Options=FieldName=battery$.Footprint Ref|TableNameOnly=battery$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=general$.TPN|TableNameOnly=general$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=general$.Description|TableNameOnly=general$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=general$.Library Ref|TableNameOnly=general$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=general$.Footprint Ref|TableNameOnly=general$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
