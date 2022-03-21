@@ -22,11 +22,32 @@ SchemaName=
 LastFocusedTable=SSR$
 [Table1]
 SchemaName=
+TableName=Diodes$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=82|Description0=189|Voltage - DC Reverse (Vr) (Max)0=180|Current - Average Rectified (Io)0=180|Voltage - Forward (Vf) (Max) @ If0=190|Speed0=205|Reverse Recovery Time (Trr)0=160|Current - Reverse Leakage @ Vr0=184|Capacitance @ Vr, F0=125|Mounting Type0=102|Package / Case0=131|Supplier Device Packaging0=158|Operating Temperature - Junction0=198|Library Ref0=77|Footprint Ref0=92|Manufacturer 10=126|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=142|Supplier 1 Link0=506|Manufacturer 20=102|Manufacturer Part Number 20=169|Supplier 20=75|Supplier Part Number 20=142
+[Table2]
+SchemaName=
 TableName=NMOS$
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table2]
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=69|Library Ref0=78|Footprint Ref0=206|Description0=181|Note0=48|Type0=47|Manufacturer0=114|Manufacturer Part Number0=160|Supplier 10=75|Supplier 1 Part Number0=142|Current - Max Continuous0=157|Drain to Source Voltage (Vdss)0=179|Gate Charge (Qg) (Max) @ Vgs0=177|Input Capacitance (Ciss) (Max) @ Vds0=211|Vgs (Max)0=72|Rds On (Max) @ Id, Vgs0=143|Vgs(th) (Max) @ Id0=116|Gate Charge (Qg) @ Vgs0=147|Drive Voltage (Max Rds On, Min Rds On)0=230|Operating Temperature0=144|Package / Case0=202|Ratings0=62|ComponentLink1URL0=306|ComponentLink1Description0=170|ComponentLink2URL0=598|ComponentLink2Description0=170
+[Table3]
+SchemaName=
+TableName=PMOS$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=TPN0=67|Library Ref0=77|Footprint Ref0=173|Description0=159|Note0=48|Type0=61|Manufacturer0=191|Manufacturer Part Number0=160|Supplier 10=75|Supplier 1 Part Number0=142|Current - Continuous Drain (Id)0=183|Drain to Source Voltage (Vdss)0=179|Gate Charge (Qg) (Max) @ Vgs0=177|Input Capacitance (Ciss) (Max) @ Vds0=211|Vgs (Max)0=72|Rds On (Max) @ Id, Vgs0=143|Vgs(th) (Max) @ Id0=116|Drive Voltage (Max Rds On, Min Rds On)0=230|Operating Temperature0=144|Package / Case0=216|Ratings0=62|ComponentLink1URL0=257|ComponentLink1Description0=170|ComponentLink2URL0=507|ComponentLink2Description0=170
+[Table4]
 SchemaName=
 TableName=SSR$
 Enabled=True
@@ -36,18 +57,34 @@ BrowserOrder_Sorting=
 BrowserOrder_Grouping=
 BrowserOrder_Visible=TPN0=55|Library Ref0=77|Footprint Ref0=172|Description0=156|Manufacturer0=195|Manufacturer Part Number0=160|Supplier 10=75|Supplier 1 Part Number0=142|Current - Max Continuous0=157|Voltage-Input0=95|Voltage - Load0=98|On-State Resistance (Max)0=156|Package / Case0=133|ComponentLink1URL0=453|ComponentLink1Description0=170|ComponentLink2URL0=557|ComponentLink2Description0=170
 [FieldMap1]
-Options=FieldName=NMOS$.TPN|TableNameOnly=NMOS$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes$.TPN|TableNameOnly=Diodes$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
-Options=FieldName=NMOS$.Library Ref|TableNameOnly=NMOS$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes$.Description|TableNameOnly=Diodes$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap3]
-Options=FieldName=NMOS$.Footprint Ref|TableNameOnly=NMOS$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes$.Library Ref|TableNameOnly=Diodes$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=NMOS$.Description|TableNameOnly=NMOS$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Diodes$.Footprint Ref|TableNameOnly=Diodes$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=SSR$.TPN|TableNameOnly=SSR$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=NMOS$.TPN|TableNameOnly=NMOS$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=SSR$.Library Ref|TableNameOnly=SSR$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=NMOS$.Library Ref|TableNameOnly=NMOS$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
-Options=FieldName=SSR$.Footprint Ref|TableNameOnly=SSR$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=NMOS$.Footprint Ref|TableNameOnly=NMOS$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap8]
+Options=FieldName=NMOS$.Description|TableNameOnly=NMOS$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=PMOS$.TPN|TableNameOnly=PMOS$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=PMOS$.Library Ref|TableNameOnly=PMOS$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=PMOS$.Footprint Ref|TableNameOnly=PMOS$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=PMOS$.Description|TableNameOnly=PMOS$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=SSR$.TPN|TableNameOnly=SSR$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=SSR$.Library Ref|TableNameOnly=SSR$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=SSR$.Footprint Ref|TableNameOnly=SSR$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
 Options=FieldName=SSR$.Description|TableNameOnly=SSR$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

@@ -19,13 +19,22 @@ LibrarySearchPath=Sch;Pcb
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Modules$
+LastFocusedTable=Power$
 [Table1]
 SchemaName=
 TableName=Modules$
 Enabled=True
 UserWhere=0
 UserWhereText=
+[Table2]
+SchemaName=
+TableName=Power$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Description0=227|Library Ref0=77|Footprint Ref0=179|TPN0=80|Function0=69|Output Configuration0=137|Topology0=72|Number of Outputs0=124|Output Phases0=99|Voltage - Supply (Vcc/Vdd)0=159|Frequency - Switching0=137|Duty Cycle (Max)0=106|Synchronous Rectifier0=135|Clock Sync0=77|Serial Interfaces0=104|Control Features0=109|Operating Temperature0=144|Mounting Type0=102|Package / Case0=99|Supplier Device Package0=147|Manufacturer 10=154|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=169|Supplier Link 10=99|Manufacturer 20=102|Manufacturer Part Number 20=169|Supplier 20=75|Supplier Part Number 20=142
 [FieldMap1]
 Options=FieldName=Modules$.TPN|TableNameOnly=Modules$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -34,3 +43,11 @@ Options=FieldName=Modules$.Description|TableNameOnly=Modules$|FieldNameOnly=Desc
 Options=FieldName=Modules$.Library Ref|TableNameOnly=Modules$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
 Options=FieldName=Modules$.Footprint Ref|TableNameOnly=Modules$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Power$.Description|TableNameOnly=Power$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Power$.Library Ref|TableNameOnly=Power$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Power$.Footprint Ref|TableNameOnly=Power$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Power$.TPN|TableNameOnly=Power$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
