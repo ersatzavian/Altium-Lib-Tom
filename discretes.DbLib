@@ -12,23 +12,20 @@ QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
 LibraryDatabaseType=Microsoft Excel
-LibraryDatabasePath=C:\Users\TomByrne\Altium-Lib-Tom\discretes.xls
-DatabasePathRelative=0
+LibraryDatabasePath=discretes.xls
+DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=Sch;Pcb
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
-LastFocusedTable=SSR$
+LastFocusedTable=Diodes$
 [Table1]
 SchemaName=
 TableName=Diodes$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=TPN0=82|Description0=189|Voltage - DC Reverse (Vr) (Max)0=180|Current - Average Rectified (Io)0=180|Voltage - Forward (Vf) (Max) @ If0=190|Speed0=205|Reverse Recovery Time (Trr)0=160|Current - Reverse Leakage @ Vr0=184|Capacitance @ Vr, F0=125|Mounting Type0=102|Package / Case0=131|Supplier Device Packaging0=158|Operating Temperature - Junction0=198|Library Ref0=77|Footprint Ref0=92|Manufacturer 10=126|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=142|Supplier 1 Link0=506|Manufacturer 20=102|Manufacturer Part Number 20=169|Supplier 20=75|Supplier Part Number 20=142
 [Table2]
 SchemaName=
 TableName=NMOS$
