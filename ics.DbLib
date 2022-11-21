@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\TomByrne
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,25 +19,34 @@ LibrarySearchPath=Sch;Pcb
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=DC-DC Switching Controllers$
+LastFocusedTable=Linear Regulators$
 [Table1]
 SchemaName=
 TableName=DC-DC Switching Controllers$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=TPN0=77|Description0=153|Output Type0=92|Function0=69|Output Configuration0=137|Topology0=72|Number of Outputs0=124|Output Phases0=99|Voltage - Supply0=108|Frequency -  Switching0=140|Duty Cycle (Max)0=106|Synchronous Rectifier0=135|Clock Sync0=77|Serial Interfaces0=104|Control Features0=109|Operating Temperature0=144|Mounting Type0=102|Package / Case0=99|Supplier Device Package0=147|Height - Seated (Max)0=133|Library Ref0=77|Footprint Ref0=92|Manufacturer 10=102|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=142|Supplier Link 10=484
 [Table2]
 SchemaName=
-TableName=Modules$
+TableName=Gates and Inverters$
+Enabled=True
+UserWhere=0
+UserWhereText=
+[Table3]
+SchemaName=
+TableName=Linear Regulators$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=TPN0=63|Description0=209|Library Ref0=95|Footprint Ref0=92|Size / Dimension0=108|Height - Seated (Max)0=133|Manufacturer 10=104|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=142|Supplier Link 10=554|Manufacturer 20=102|Manufacturer Part Number 20=169|Supplier 20=75|Supplier Part Number 20=142
+BrowserOrder_Visible=TPN0=76|Description0=358|Output Type0=88|Output Configuration0=137|Output Type10=94|Number of Regulators0=137|Voltage - Input (Max)0=131|Voltage - Output (Min/Fixed)0=171|Voltage - Output (Max)0=141|Voltage Dropout (Max)0=140|Current - Output0=110|Current - Quiescent (Iq)0=142|Current - Supply (Max)0=137|PSRR0=73|Control Features0=109|Protection Features0=258|Operating Temperature0=144|Mounting Type0=102|Package / Case0=99|Supplier Device Package0=147|Base Product Number0=133|Library Ref0=77|Footprint Ref0=107|Manufacturer 10=122|Manufacturer Part Number 10=169|Supplier 10=75|Supplier Part Number 10=142|Supplier Link 10=499
+[Table4]
+SchemaName=
+TableName=Modules$
+Enabled=True
+UserWhere=0
+UserWhereText=
 [FieldMap1]
 Options=FieldName=DC-DC Switching Controllers$.TPN|TableNameOnly=DC-DC Switching Controllers$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -45,10 +54,28 @@ Options=FieldName=DC-DC Switching Controllers$.Library Ref|TableNameOnly=DC-DC S
 [FieldMap3]
 Options=FieldName=DC-DC Switching Controllers$.Footprint Ref|TableNameOnly=DC-DC Switching Controllers$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap4]
-Options=FieldName=Modules$.TPN|TableNameOnly=Modules$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=DC-DC Switching Controllers$.Description|TableNameOnly=DC-DC Switching Controllers$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap5]
-Options=FieldName=Modules$.Description|TableNameOnly=Modules$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Gates and Inverters$.TPN|TableNameOnly=Gates and Inverters$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap6]
-Options=FieldName=Modules$.Library Ref|TableNameOnly=Modules$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Gates and Inverters$.Description|TableNameOnly=Gates and Inverters$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap7]
+Options=FieldName=Gates and Inverters$.Library Ref|TableNameOnly=Gates and Inverters$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=Gates and Inverters$.Footprint Ref|TableNameOnly=Gates and Inverters$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=Linear Regulators$.TPN|TableNameOnly=Linear Regulators$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=Linear Regulators$.Description|TableNameOnly=Linear Regulators$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=Linear Regulators$.Library Ref|TableNameOnly=Linear Regulators$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=Linear Regulators$.Footprint Ref|TableNameOnly=Linear Regulators$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=Modules$.TPN|TableNameOnly=Modules$|FieldNameOnly=TPN|FieldType=0|ParameterName=TPN|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=Modules$.Description|TableNameOnly=Modules$|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=Modules$.Library Ref|TableNameOnly=Modules$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
 Options=FieldName=Modules$.Footprint Ref|TableNameOnly=Modules$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
